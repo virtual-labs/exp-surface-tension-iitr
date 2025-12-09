@@ -1,39 +1,102 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+[
+  {
+    "question": "What is the purpose of a stalagmometer in the experiment to determine surface tension?",
+    "answers": {
+      "a": "To measure the volume of the liquid",
+      "b": "To measure the height of the liquid drop",
+      "c": "To measure the temperature of the liquid",
+      "d": "To measure the density of the liquid"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the stalagmometer experiment, why is it important to remove excess liquid until it reaches a stable level just above the top of the tube?",
+    "answers": {
+      "a": "To ensure the liquid does not spill",
+      "b": "To prevent air bubbles from forming",
+      "c": "To reduce the weight of the liquid",
+      "d": "To minimize evaporation of the liquid"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What property of the liquid causes the drop to stop falling in the stalagmometer experiment?",
+    "answers": {
+      "a": "Viscosity",
+      "b": "Surface tension",
+      "c": "Density",
+      "d": "Adhesion"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How is the surface tension of the liquid calculated using the stalagmometer experiment?",
+    "answers": {
+      "a": "By measuring the diameter of the tube",
+      "b": "By measuring the temperature of the liquid",
+      "c": "By measuring the height of the liquid drop",
+      "d": "By measuring the volume of the liquid"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the formula to calculate surface tension, what does ρ represent?",
+    "answers": {
+      "a": "Height of the drop",
+      "b": "Density of the liquid",
+      "c": "Acceleration due to gravity",
+      "d": "Diameter of the tube"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which factor does not affect the surface tension of a liquid in the stalagmometer experiment?",
+    "answers": {
+      "a": "Height of the drop",
+      "b": "Density of the liquid",
+      "c": "Temperature of the liquid",
+      "d": "Diameter of the tube"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What unit is used to express surface tension?",
+    "answers": {
+      "a": "Newton (N)",
+      "b": "Meter (m)",
+      "c": "Kilogram per cubic meter (kg/m³)",
+      "d": "Newton per meter (N/m)"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "How does the surface tension of a liquid change with an increase in temperature?",
+    "answers": {
+      "a": "It increases",
+      "b": "It decreases",
+      "c": "It remains constant",
+      "d": "It depends on the type of liquid"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of gravity in the stalagmometer experiment?",
+    "answers": {
+      "a": "To pull the liquid downward",
+      "b": "To pull the liquid upward",
+      "c": "To stabilize the liquid drop",
+      "d": "To measure the volume of the liquid"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main principle behind using a stalagmometer to determine surface tension?",
+    "answers": {
+      "a": "Archimedes’ Principle",
+      "b": "Boyle’s Law",
+      "c": "Pascal’s Law",
+      "d": "Inverse proportionality between drop height and surface tension"
+    },
+    "correctAnswer": "d"
+  }
+]

@@ -1,1 +1,1 @@
-## Experiment name
+## Determination of surface tension of liquid using a stalagmometer.

@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### To determine the surface tension of liquid by Stalagmometer.

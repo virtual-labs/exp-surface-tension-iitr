@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+  <script>
+    let knob;
+    let angle = 0;
+    let dragging = false;
+
+    function preload() {
+      knob = loadImage('knob.png'); // Replace 'knob.png' with your image file
+    }
+
+    function setup() {
+      createCanvas(400, 400);
+    }
+
+    function draw() {
+      background(220);
+
+      // Draw knob
+      push();
+      translate(width / 2, height / 2);
+      rotate(angle);
+      imageMode(CENTER);
+      image(knob, 0, 0, 100, 100); // Adjust size as needed
+      pop();
+
+      // Update angle based on dragging
+      if (dragging) {
+        let dx = mouseX - width / 2;
+        let dy = mouseY - height / 2;
+        angle = atan2(dy, dx);
+      }
+    }
+
+    function mousePressed() {
+      let distance = dist(mouseX, mouseY, width / 2, height / 2);
+      if (distance < 50) { // Adjust the radius based on your image size
+        dragging = true;
+      }
+    }
+
+    function mouseReleased() {
+      dragging = false;
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
