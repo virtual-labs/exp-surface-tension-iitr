@@ -1,39 +1,102 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+[
+  {
+    "question": "In the stalagmometer experiment, what does the term ‘surface tension’ refer to?",
+    "answers": {
+      "a": "The tension between the liquid and the tube walls",
+      "b": "The tension between the liquid and the air",
+      "c": "The tension between the liquid molecules at the surface",
+      "d": "The tension between the liquid and the solid surface"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What happens to the height of the liquid drop in the stalagmometer as the surface tension increases?",
+    "answers": {
+      "a": "It increases",
+      "b": "It decreases",
+      "c": "It remains constant",
+      "d": "It fluctuates"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following factors does not affect the accuracy of surface tension measurement using a stalagmometer?",
+    "answers": {
+      "a": "Temperature of the liquid",
+      "b": "Diameter of the tube",
+      "c": "Humidity of the environment",
+      "d": "Purity of the liquid"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the significance of measuring the diameter of the tube in the stalagmometer experiment?",
+    "answers": {
+      "a": "To calculate the volume of the liquid",
+      "b": "To determine the density of the liquid",
+      "c": "To adjust the surface tension value",
+      "d": "To use in the formula for surface tension calculation"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which of the following liquids would likely have the highest surface tension?",
+    "answers": {
+      "a": "Water",
+      "b": "Alcohol",
+      "c": "Oil",
+      "d": "Mercury"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What role does adhesion play in the formation of a liquid drop in the stalagmometer?",
+    "answers": {
+      "a": "It causes the liquid to spread along the tube walls",
+      "b": "It causes the liquid to form a spherical drop",
+      "c": "It prevents the liquid from forming a drop",
+      "d": "It determines the color of the liquid drop"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is it necessary to repeat the stalagmometer experiment multiple times?",
+    "answers": {
+      "a": "To ensure the liquid does not evaporate",
+      "b": "To minimize experimental errors",
+      "c": "To increase the weight of the liquid",
+      "d": "To speed up the experiment"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What would happen to the surface tension of a liquid if the temperature is increased?",
+    "answers": {
+      "a": "It would increase",
+      "b": "It would decrease",
+      "c": "It would remain constant",
+      "d": "It would depend on the liquid"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which property of the liquid affects the rate at which the drop falls in the stalagmometer?",
+    "answers": {
+      "a": "Viscosity",
+      "b": "Density",
+      "c": "Volume",
+      "d": "Surface area"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary advantage of using a stalagmometer over other methods for measuring surface tension?",
+    "answers": {
+      "a": "It is less expensive",
+      "b": "It requires smaller samples of liquid",
+      "c": "It provides direct measurement of surface tension",
+      "d": "It can be used for any type of liquid"
+    },
+    "correctAnswer": "b"
+  }
+]

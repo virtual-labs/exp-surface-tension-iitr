@@ -1,11 +1,13 @@
-EMPTY
-<!-- Remove all lines above this line before making changes to the file -->
-### Subject Matter Experts
-| SNo. | Name | Email | Institute | ID |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
+### Lab Proposer / Subject Matter Experts
 
-### Developers
-| SNo. | Name | Email | Institute | ID |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
+| S.No. | Name           | Email              | Institute     | Position   |
+|-------|----------------|--------------------|---------------|------------|
+| 1     | Prof. RS Anand | anandfee@gmail.com | IIT Roorkee   | Professor  |
+
+<br>
+
+### Developed by Virtual Labs Team IITR with support from
+
+| S.No. | Name               | Email                     | Institute    | Position            |
+|-------|--------------------|---------------------------|--------------|---------------------|
+| 1     | Dr. Sulaxna Sharma | Sulaxna@thdcihet.ac.in    | THDC-IHET    | Subject Coordinator |
